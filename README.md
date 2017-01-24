@@ -52,11 +52,42 @@ import destruction
 
 ### Examples
 
+#### Varying π and e
 
+You saw the float example. Let's do something weirder:
+
+```python
+>>> import destruction
+>>> import math
+>>> math.pi
+3.1349545779223096
+>>> math.pi
+3.1332825202115226
+>>> math.pi
+3.1332205700116864
+>>> math.pi
+3.1346367856853625
+>>> math.pi
+3.130824304762861
+```
+
+`pi` that slightly changes everytime you access it. Evil, I know. Same with `e`:
+
+```python
+>>> math.e
+2.718878169620603
+>>> math.e
+2.723038508262948
+>>> math.e
+2.7308532846593865
+```
+
+The only caveat is that you must import `math` *after* you import destruction.
+Slightly inconvinient, I admit.
 
 ### Contributing
 
-All patches welcome!
+All patches welcome! New, interesting, and evil ideas are always welcome :)
 
 ### LICENSE
 

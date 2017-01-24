@@ -8,3 +8,6 @@ else:
 
 from FakeFloat import FakeFloat
 builtins.float = FakeFloat
+
+from FakeMath import FakeMath
+sys.modules['math'] = FakeMath()
