@@ -87,6 +87,10 @@ Slightly inconvinient, I admit.
 
 All patches welcome! New, interesting, and evil ideas are always welcome :)
 
+### Why did you make this?
+
+¯\\\_(ツ)_/¯
+
 ### LICENSE
 
 ```
