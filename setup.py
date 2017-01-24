@@ -5,13 +5,10 @@ import sys
 
 here = os.path.abspath(os.path.dirname(__file__))
 
-with codecs.open(os.path.join(here, 'README.md'), encoding='utf-8') as f:
-    long_description = f.read()
-
 setuptools.setup(
     name='destruction',
 
-    version='0.1.1',
+    version='0.1.2',
 
     description='Destroy Python programs with a simple import.',
 
