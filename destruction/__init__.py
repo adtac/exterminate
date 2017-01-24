@@ -6,8 +6,8 @@ else:
     import __builtin__ as builtins
 
 
-from FakeFloat import FakeFloat
+from destruction.FakeFloat import FakeFloat
 builtins.float = FakeFloat
 
-from FakeMath import FakeMath
+from destruction.FakeMath import FakeMath
 sys.modules['math'] = FakeMath()
