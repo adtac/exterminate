@@ -11,7 +11,7 @@ with codecs.open(os.path.join(here, 'README.md'), encoding='utf-8') as f:
 setuptools.setup(
     name='destruction',
 
-    version='0.1.0',
+    version='0.1.1',
 
     description='Destroy Python programs with a simple import.',
 
