@@ -13,7 +13,7 @@ setuptools.setup(
 
     version='0.1.0',
 
-    description='Completely destroy Python programs with an import.',
+    description='Destroy Python programs with a simple import.',
 
     url='https://github.com/adtac/destruction',
 
