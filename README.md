@@ -22,8 +22,6 @@ surprise.
 1.009620798598302
 ```
 
-Wait, what?
-
 ### What kind of sorcery is this?
 
 Python has a module called `__builtin__` (it's called `builtins` in Python 3)
@@ -43,8 +41,8 @@ $ pip install destruction
 
 ### Usage
 
-To make the lives of your arch enemies, sneak in the following line anywhere
-in their Python code:
+To make the lives of your arch enemies miserable, sneak in the following line
+anywhere in their Python code:
 
 ```python
 import destruction
