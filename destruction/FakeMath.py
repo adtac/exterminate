@@ -5,7 +5,7 @@ import math as actual_math
 
 RANGE = (-0.01, 0.01)
 
-class FakeMath:
+class AlternativeMath:
     def __init__(self):
         self.custom_pi = actual_math.pi
         self.custom_e = actual_math.e
@@ -27,4 +27,4 @@ class FakeMath:
         """
         return getattr(actual_math, name)
 
-FakeMath.__doc__ = actual_math.__doc__
+AlternativeMath.__doc__ = actual_math.__doc__
