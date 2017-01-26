@@ -41,6 +41,20 @@ Search your feelings, Lord Vader, and you will know it to be true. Or was it `Fa
 
 ---
 
+OK, can I at least access elements from a list? Why don't we try something new
+each time?
+
+```python
+>>> from exterminate import AltList
+>>> x = list(range(10))
+>>> x[3]
+7
+>>> x[3]
+5
+```
+
+---
+
 Say you're building a nice, little command-line program in Python. But
 someone managed to sneak EXTERMINATE into your imports. Uh-oh!
 
