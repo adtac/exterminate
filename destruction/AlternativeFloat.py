@@ -3,6 +3,7 @@ import random
 
 RANGE = (-0.01, 0.01)
 
+
 class AlternativeFloat(float):
     def __init__(self, number):
         self.number = number
@@ -17,4 +18,3 @@ class AlternativeFloat(float):
             return AlternativeFloat(self.number + float(other.number) + plus)
         else:
             return AlternativeFloat(self.number) + AlternativeFloat(other + plus)
-
