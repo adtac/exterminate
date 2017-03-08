@@ -1,5 +1,4 @@
 import sys
-import random
 if sys.version_info >= (3,):
     import builtins
 else:
