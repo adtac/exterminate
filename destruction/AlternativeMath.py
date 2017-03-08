@@ -1,4 +1,3 @@
-import sys
 import random
 import math as actual_math
 
