@@ -1,4 +1,5 @@
 import sys
+
 if sys.version_info >= (3,):
     import builtins
 else:
@@ -13,5 +14,7 @@ from destruction.AlternativeMath import AlternativeMath
 sys.modules['math'] = AlternativeMath()
 
 
-from destruction.AlternativeRange import alternative_range
-builtins.range = alternative_range
+from destruction.AlternativeSorting import alternative_shuffle, alternative_sorted
+import random
+builtins.sorted = alternative_sorted
+random.shuffle = alternative_shuffle
