@@ -18,3 +18,7 @@ from destruction.AlternativeSorting import alternative_shuffle, alternative_sort
 import random
 builtins.sorted = alternative_sorted
 random.shuffle = alternative_shuffle
+
+
+from destruction.AlternativeString import alt_str
+builtins.str = alt_str
