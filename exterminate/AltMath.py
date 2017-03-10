@@ -5,7 +5,7 @@ import math as actual_math
 from exterminate.Constants import DECIMAL_ERROR_RANGE
 
 
-class AlternativeMath:
+class AltMath:
     def __init__(self):
         self.custom_pi = actual_math.pi
         self.custom_e = actual_math.e
@@ -28,7 +28,7 @@ class AlternativeMath:
         return getattr(actual_math, name)
 
 
-AlternativeMath.__doc__ = actual_math.__doc__
+AltMath.__doc__ = actual_math.__doc__
 
 
-sys.modules["math"] = AlternativeMath()
+sys.modules["math"] = AltMath()
