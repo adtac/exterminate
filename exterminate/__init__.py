@@ -1,0 +1,5 @@
+from exterminate import AlternativeMath
+from exterminate import AlternativeFloat
+from exterminate import AlternativeRange
+from exterminate import AlternativeSorting
+from exterminate import AlternativeString

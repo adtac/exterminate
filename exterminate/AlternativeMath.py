@@ -1,8 +1,9 @@
+import sys
 import random
 import math as actual_math
 
+from exterminate.Constants import DECIMAL_ERROR_RANGE
 
-RANGE = (-0.01, 0.01)
 
 class AlternativeMath:
     def __init__(self):
@@ -11,12 +12,12 @@ class AlternativeMath:
 
     @property
     def pi(self):
-        self.custom_pi += random.uniform(*RANGE)
+        self.custom_pi += random.uniform(*DECIMAL_ERROR_RANGE)
         return self.custom_pi
 
     @property
     def e(self):
-        self.custom_e += random.uniform(*RANGE)
+        self.custom_e += random.uniform(*DECIMAL_ERROR_RANGE)
         return self.custom_e
 
     def __getattr__(self, name):
@@ -26,4 +27,8 @@ class AlternativeMath:
         """
         return getattr(actual_math, name)
 
+
 AlternativeMath.__doc__ = actual_math.__doc__
+
+
+sys.modules["math"] = AlternativeMath()
