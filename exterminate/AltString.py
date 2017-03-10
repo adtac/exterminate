@@ -10,7 +10,7 @@ class alt_str(_str):
         value = _str(''.join(
             char
             for char in _str(value)
-            if random.randint(0, 10) < 8
+            if random.randint(1, 5) > 1
         ))
         return super().__new__(cls, value, *args, **kwargs)
 
