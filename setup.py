@@ -6,13 +6,13 @@ import sys
 here = os.path.abspath(os.path.dirname(__file__))
 
 setuptools.setup(
-    name='destruction',
+    name='exterminate',
 
-    version='0.1.3',
+    version='0.2.0',
 
-    description='Destroy Python programs with a simple import.',
+    description='Break Python programs with a simple import.',
 
-    url='https://github.com/adtac/destruction',
+    url='https://github.com/adtac/exterminate',
 
     author='Adhityaa Chandrasekar',
     author_email='c.adhityaa@gmail.com',
@@ -31,5 +31,5 @@ setuptools.setup(
         'Programming Language :: Python :: 3.6',
     ],
 
-    packages=['destruction'],
+    packages=['exterminate'],
 )
