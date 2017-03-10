@@ -13,3 +13,6 @@ class alt_str(_str):
             if random.randint(0, 10) < 8
         ))
         return super().__new__(cls, value, *args, **kwargs)
+
+
+builtins.str = alt_str
