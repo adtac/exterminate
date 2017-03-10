@@ -17,6 +17,8 @@ setuptools.setup(
     author='Adhityaa Chandrasekar',
     author_email='c.adhityaa@gmail.com',
 
+    install_requires=open("requirements.txt").read().splitlines(),
+
     license='MIT',
 
     classifiers=[
