@@ -14,7 +14,7 @@ def translate(text):
     soup = BeautifulSoup(r.content, "html.parser")
     new = soup.find(id='search_box').get_text().strip()
 
-    if new == text:
+    if new == text or "Click here to learn more about Gizoogle" in new:
         return ''.join(c for c in text if random.randint(0, 10) < 10)
     else:
         return new
