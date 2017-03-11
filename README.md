@@ -1,6 +1,6 @@
 ## EXTERMINATE
 
-![EXTERMINATE](https://cloud.githubusercontent.com/assets/7521600/23821904/0fce50d6-0666-11e7-8700-3eb3fca425f5.png)
+![EXTERMINATE](https://cloud.githubusercontent.com/assets/7521600/23822517/2b404032-0674-11e7-900d-bacff45b50e7.png)
 
 We all know bowties are cool. But seriously, are you sure of that? Let us
 rethink some basic assumptions.
