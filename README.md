@@ -71,7 +71,7 @@ but World War IV will be fought with `import EXTERMINATE`":
 
 <sub>If you use IPython you won't get to that stage though. You might also not be able to import all EXTERMINATE modules at the same time.</sub>
 
-<sub><sub><sub>Also Vim is better than Emacs. Fight me.</sub></sub></sub>
+<sup><sup><sup>Also Vim is better than Emacs. Fight me.</sup></sup></sup>
 
 ### Installation
 
