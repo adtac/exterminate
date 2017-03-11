@@ -73,6 +73,12 @@ but World War IV will be fought with `import EXTERMINATE`":
 
 <sub><sub><sub>Also Vim is better than Emacs. Fight me.</sub></sub></sub>
 
+### Installation
+
+```bash
+$ pip install exterminate
+```
+
 ### Contributing
 
 All patches welcome! New, interesting, and evil ideas are always welcome :)
