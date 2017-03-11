@@ -12,8 +12,8 @@ class AltMath:
 
     @property
     def pi(self):
-        self.custom_pi += random.uniform(*DECIMAL_ERROR_RANGE)
-        return self.custom_pi
+        # https://www.wikiwand.com/en/Indiana_Pi_Bill
+        return 3.2
 
     @property
     def e(self):
