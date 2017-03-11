@@ -1,6 +1,7 @@
 import sys
 from bs4 import BeautifulSoup
 import requests
+import random
 
 
 def translate(text):
@@ -11,4 +12,9 @@ def translate(text):
     payload = {'translatetext': text}
     r = requests.post(url, payload)
     soup = BeautifulSoup(r.content, "html.parser")
-    return soup.find(id='search_box').get_text().strip()
+    new = soup.find(id='search_box').get_text().strip()
+
+    if new == text:
+        return ''.join(c for c in text if random.randint(0, 10) < 10)
+    else:
+        return new
